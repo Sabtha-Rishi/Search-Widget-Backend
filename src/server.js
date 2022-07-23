@@ -8,7 +8,7 @@ require('dotenv').config()
 
 const server = http.createServer(app);
 
-server.listen(process.env.PORT, () => {
-    console.log(`Listening on port ${process.env.PORT}....`)
+server.listen(8000, () => {
+    console.log(`Listening on port ${8000}....`)
 
 })
